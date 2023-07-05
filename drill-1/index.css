@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+}
+#top{
+    background-color: gray;
+    height: 15%;
+}
+#left-side{
+    height: 100%;
+    width: 10%;
+    background-color: lightgray;
+}
+#bottom{
+    background-color: black;
+    height: 15%;
+    width: 80%;
+    position: relative;
+    top: 85%;
+}
+#right-side{
+    height: 100%;
+    width: 10%;
+    background-color: lightgray;
+}
